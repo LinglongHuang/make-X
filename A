@@ -1,0 +1,6 @@
+echo "# make-X" >> README.md
+git init
+git add git commit -m "commit A1"
+git branch -M main
+git remote add origin https://github.com/LinglongHuang/make-X.git
+git push -u origin main
